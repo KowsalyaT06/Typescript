@@ -13,3 +13,11 @@ person = 'kowsi';
 person = 22;
 var Peopless;
 ['Kowsi', 1, 'ramya', 2];
+//Generics
+function g(items) {
+    return items;
+}
+var numbers = g(1);
+var strings = g("kowsi");
+console.log('Numbers', numbers);
+console.log('Strings', strings);

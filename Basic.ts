@@ -24,3 +24,14 @@ person = 22
 
 let Peopless : People[]
 ['Kowsi',1,'ramya',2]
+
+//Generics
+
+function g<T>(items:T):T{
+    return items;
+}
+let numbers = g(1);
+let strings = g("kowsi");
+
+console.log('Numbers',numbers);
+console.log('Strings',strings)
